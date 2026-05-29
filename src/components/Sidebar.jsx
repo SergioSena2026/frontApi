@@ -16,6 +16,9 @@ const Sidebar = () => {
         <Link to="/clientes" className="nav-link text-white mb-2">
           <i className="bi bi-people me-2"></i> Gestionar Clientes
         </Link>
+        <Link to="/repuestos" className="nav-link text-white mb-2">
+          <i className="bi bi-wrench me-2"></i> Inventario Repuestos
+        </Link>
       </nav>
       <div className="mt-auto pt-5 text-secondary text-center">
         <small>v1.0 - SENA Project</small>
